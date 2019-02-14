@@ -10,6 +10,7 @@ html {
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
   box-sizing: border-box;
+  font-family: sans-serif;
 }
 
 *, *::before, *::after {
@@ -18,4 +19,32 @@ html {
 
 body {
   margin: 0;
+}
+
+header {
+  text-align: center;
+  background-color: #e2e2e2;
+}
+
+a {
+  text-decoration: none;
+  color: #0074d9;
+}
+
+.current {
+  color: #fff;
+  background-color: #0074d9;
+}
+
+a:hover {
+  background-color: #0074d9;
+  color: #fff;
+}
+
+li {
+  display: inline-block;
+}
+
+h1 {
+  text-align: left;
 }
